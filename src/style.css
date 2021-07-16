@@ -1,0 +1,158 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+/*Up*/
+.logo{
+	width:100px;
+}
+#contUp{
+	padding: 0 22px 0 0 ;
+}
+
+.rightPhone{
+	float: right;
+}
+.phone{
+	font-family: AbeeZee;
+	font-size: 18px;
+	color: #EB5017;
+}
+.hat{
+	padding: 0;
+	margin: 12px 22px 20px 8px;
+}
+/*Navigation panel*/
+.bar{
+	margin: 0 12px 0 10px;
+	padding: 0;
+
+}
+.navbar{
+	background:#231F20 ;
+	font-family: arial;
+	font-size:14px;
+}
+
+.navbar-nav {
+    width:100%;
+    margin: 0;
+}
+.nav-link{
+	margin:  11px 0;
+}
+.navbar-nav > li {
+    float:none;
+    text-align:center;
+    border-left:0.1px solid #EB5017;
+    border-right:0.1px solid #EB5017;
+}
+.navbar-nav > li:hover{
+	background: #EB5017;
+	color:#ffffff;
+}
+
+/*breadcrumb*/
+.breadcrumb{
+	background-color: #fff;
+	font-family: arial;
+	font-size: 12px;
+	color: #231f20;
+	margin: 16px 0 16px 30px;
+}
+/*Calc*/
+.calc{
+	margin: 16px 0 0 30px;
+	position: relative;
+	background-color: #f2f2f2;
+	width: 60%;
+	padding: 0 0 35px 0;
+}
+.containerCals{
+	font-family:arial;
+	font-size:14px;
+}
+.radio{
+	margin-right:53px;
+}
+.radio1{
+	margin-right:8px;
+}
+.calcH1{
+	font-size:30px;
+	margin: 19px 0 0 96px;
+	color:#EB5017;
+}
+.containerCalc{
+	display: block;
+}
+	.inlineInput{
+		display:flex;
+
+
+}
+.rightInput{
+	width:124px;
+}
+.leftText{
+	float:right;
+
+}
+.right{
+	margin: 38px 0px 12.5px 20px;
+}
+.left{
+	margin: 38px 29px 12.5px 27px;
+	width:30%;
+}
+.fontResult{
+	font-family:arial;
+	font-size:12px;
+	color: #395306;
+
+}
+.btnResult{
+	margin:0 25px 0 0;
+	background: linear-gradient(to bottom, #bbf134, #88cf00);
+	color: #3f5b06;
+	padding: 0.5em;
+	border-radius: 15%;
+	border-color: #c4c5c5;
+	font-size: 1em;
+}
+.divResult{
+	margin:14px 0 0 22px ;
+}
+.rangeSum{
+
+	width: 200px;
+}
+.rangeText{
+	margin-left:45%;
+}
+.rangeTextCss{
+    font-style:italic;
+    font-size:12px;
+}
+.rangecss{
+    width:100%;
+}
+/*Footer*/
+#footercss{
+    margin: 0 12px 0 10px;
+    background:#231F20 ;
+    font-family: arial;
+    font-size:12px;
+}
+#containerfooter{
+    margin: 13px 61px 31px 40px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+a{
+    color: white;
+    margin: 0 0 0 20px;
+}
